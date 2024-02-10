@@ -28,7 +28,7 @@ const navinner = document.querySelector("nav").innerHTML // innerHTML gives out 
 console.log(navinner);
 nav.textContent= "Srikanth's Page";
 const navbar = document.querySelector("nav");
-navbar.innerHTML ="<h1> Hello World</h1> <p> this is a text</p>"
+navbar.innerHTML ="<h1> Hello World</h1> <p> this is a text</p>" // the <h1> & <p> tag will work accoding to HTML
 console.log(navbar);
 navbar.style.justifyContent="space-between";
 console.log(navbar.parentElement);
